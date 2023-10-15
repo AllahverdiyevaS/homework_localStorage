@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="button-container">
+      <input type="checkbox" id="lightmode-toggle" />
+      <label for="lightmode-toggle" class="label-toggle">
+        <img
+          class="sun"
+          src="./img/moon-svgrepo-com.svg"
+          alt=""
+          width="28px"
+          height="28px"
+        />
+        <img
+          class="moon"
+          src="./img/sun-svgrepo-com (1).svg"
+          alt=""
+          width="28px"
+          height="28px"
+        />
+        <div class="ball"></div>
+      </label>
+    </div>
+    <div class="form_img">
+      <img src="./img/bear.svg" alt="" class="bear" />
+
+      <form action="" class="form">
+        <div class="form_container">
+          <div class="logo">
+            <h1>Create account</h1>
+            <a href=""
+              ><img src="./img/facebook-fill 1 (1).svg" alt="facebook"
+            /></a>
+            <a href=""
+              ><img src="./img/twitter-fill 1 (1).svg" alt="twitter"
+            /></a>
+            <a href=""
+              ><img src="./img/google-fill 1 (1).svg" alt="google"
+            /></a>
+          </div>
+          <p>Or register using email & password</p>
+          <hr />
+
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="fullname"
+            placeholder=""
+            value=""
+            required
+          />
+          <label for="email">Email address</label>
+          <input
+            type="text"
+            placeholder=""
+            name="email"
+            id="email"
+            value=""
+            required
+          />
+          <label for="password">Create password</label>
+          <input
+            type="password"
+            placeholder=""
+            name="password"
+            id="password"
+            value=""
+            required
+          />
+          <label for="password-confirm">Confirm Password</label>
+          <input
+            type="password"
+            placeholder=""
+            name="password-confirm"
+            id="password-confirm"
+            value=""
+            required
+          />
+
+          <label class="agree_check">
+            <input type="checkbox" name="agree" class="check_input" />
+            <span class="round"></span>
+            <p>
+              I agree to the <a href="#">terms</a> &
+              <a href="#">privacy policy</a>
+            </p>
+          </label>
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
